@@ -1,10 +1,9 @@
-import './App.css'
 import Banner from './components/Banner'
 import Card from './components/Card'
 import Footer from './components/Footer'
 import Header from './components/Header'
 
-const App = () => {
+export default App = () => {
   return (
     <>
       <Header></Header>
@@ -33,5 +32,3 @@ const App = () => {
     </>
   )
 }
-
-export default App;
